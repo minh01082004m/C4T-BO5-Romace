@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=urf-8" />
+    <title>Profession </title>
+    <link rel="stylesheet" href="thanhcongcu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+
+<body>
+    <div>
+        <table>
+            <div>
+                <button type="button" class="jio" onClick="z()">Thông tin</button>
+                <button type="button" class="jio" onClick="x()">Hình ảnh</button>
+                <button type="button" class="jio" onClick="c()">Địa điểm</button>
+                <button type="button" class="jio" onClick="hien()">Đánh giá</button>
+            </div>
+        </table>
+        <div id="z">
+
+
+        </div>
+        <div id="c">
+            <h3 class="jo">Địa điểm</h3>
+            <center><img src="hạlongstar.jpg.png" /></center>
+        </div>
+        <div id="x">
+            <tr>
+                <h3 class="jo">Hình Ảnh</h3>
+                <div class="container">
+                    <div class="row fox ">
+                        <div class="col-sm">
+                            <img src="hinhanh3.jpg" />
+                        </div>
+                        <div class="col-sm">
+                            <img src="hinhanh4.jpg" />
+                        </div>
+                        <div class="col-sm">
+                            <img src="hinhanh5.jpg" />
+                        </div>
+                        <div class="col-sm">
+                            <img src="hinhanh6.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="container">
+                    <div class="row fox ">
+                        <div class="col-sm">
+                            <img src="hinhanh7.jpg" />
+                        </div>
+                        <div class="col-sm">
+                            <img src="hinhanh8.jpg" />
+                        </div>
+                        <div class="col-sm">
+                            <img src="hinhanh9.jpg" />
+                        </div>
+                        <div class="col-sm">
+                            <img src="hinhanh10.jpg" />
+                        </div>
+                    </div>
+                </div>
+
+            </tr>
+        </div>
+    </div>
+    <script>
+        function z() {
+            document.getElementById("y").style.display = "none";
+            document.getElementById("x").style.display = "none";
+            document.getElementById("z").style.display = "none";
+        }
+
+        function x() {
+            document.getElementById("x").style.display = "block";
+            document.getElementById("z").style.display = "none";
+            document.getElementById("c").style.display = "none";
+        }
+
+
+        function c() {
+            document.getElementById("c").style.display = "block";
+            document.getElementById("z").style.display = "none";
+            document.getElementById("x").style.display = "none";
+        }
+
+        function hien() {
+            document.getElementById("hien()").style.display = "block";
+            document.getElementById("z").style.display = "none";
+            document.getElementById("x").style.display = "none";
+
+
+        }
+
+    </script>
+</body>
+
+</html>

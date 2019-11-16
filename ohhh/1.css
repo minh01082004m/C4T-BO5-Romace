@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    color:whitesmoke;
+    background-color: blue;
+    padding: 30px;
+}
+
+.colorsignin {
+    display: flex;
+    justify-content: center ;
+}
+
+.right {
+    color:white;
+    background-color: gray;       
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.eeeeee {
+    color:white;
+    background-color: ;       
+    display: flex;
+    justify-content: center;
+    font-size: 25px;

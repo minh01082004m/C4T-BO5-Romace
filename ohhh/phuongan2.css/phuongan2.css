@@ -1,0 +1,89 @@
+.m {
+   background-color: rgba(255, 145, 0, 0.863);
+   padding: 30px;
+}
+
+.jio {
+   background-color: rgb(165, 175, 175);
+   color:black;
+   size: 30px;
+   font-size: 20px;
+   border: 0;
+}
+
+.hideeeeee {
+   display: flex;
+   justify-content: center ;
+   align-content: stretch;
+}
+
+.fox {
+   width: 100%;
+}
+
+.fox >img {
+   width: 100%;
+}
+
+.jo {
+   color: chocolate;
+   padding: 30px;
+}
+
+#c{
+   display: none;
+}
+
+#x{
+   display: none;
+}
+#y{
+   display: none;
+}
+#v{
+   display: none;
+}
+
+.op {
+   display: flex;
+   justify-content: center;
+}
+
+
+
+
+#search-input {
+  height: 31px;
+  width: 1000px;
+}
+
+#search-buttum {
+   height: 30px;
+  width: 34px;
+  border: 0;
+  background:url() no-repeat;
+}
+
+.sdsdsa {
+   background-image: 
+}
+
+.fox {
+   width: 100%;
+}
+
+.fox >img {
+   width: 100%;
+}
+.minh {
+   background-color:rgb(209, 209, 209);
+   border: 0;
+}
+
+.jio2 {
+   background-color: rgb(165, 175, 175);
+   color: white;
+   size: 30px;
+   font-size: 20px;
+   border: 0;
+}

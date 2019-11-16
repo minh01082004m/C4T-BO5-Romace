@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    color:whitesmoke;
+    background-image: url('./logo.jpg');
+    padding: 30px;
+}
+
+.fox {
+    width: 100%;
+}
+
+.fox >img {
+    width: 100%;
+}
+
+.op {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.jo {
+    color: chocolate;
+    padding: 30px;
+}
+
+.tpe {
+    color:white;
+    background-color: burlywood;       
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#hide {
+    margin: 10px;
+    background:blue;
+    color: white;
+    display: none;
+}
+
+.king {
+    display: flex;
+    justify-content: center;
+}
+

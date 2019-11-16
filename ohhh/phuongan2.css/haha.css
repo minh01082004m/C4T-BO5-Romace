@@ -1,0 +1,249 @@
+.open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 10000;
+}
+.open .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: top;
+    animation: open 1s ease-in-out forwards;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #000;
+    color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+#goTop {
+    display: none;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 20;
+    transition: .3s;
+}
+
+element.style {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: -internal-root-color;
+}
+
+element.style {
+    transform: rotate(0deg);
+}
+#goTop img {
+    width: 100%;
+    transition: none;
+}
+img {
+    width: 100%;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+#goTop span {
+    position: absolute;
+    width: 110px;
+    border-radius: 7px 7px 0 7px;
+    text-align: center;
+    padding: 5px 0;
+    background: white;
+    color: black;
+    right: 90%;
+    bottom: 90%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mobile-menu-icon {
+    opacity: 0;
+    visibility: hidden;
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    top: 7px;
+    left: 7px;
+    z-index: 12;
+}
+
+.mobile-menu-icon span {
+    width: 32px;
+    height: 4px;
+    background: #fff;
+    display: block;
+    margin-bottom: 6px;
+    box-shadow: 0 1px 2px;
+    transition: .5s;
+}
+
+.mobile-menu-icon p {
+    position: absolute;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background: black;
+    backface-visibility: hidden;
+    transition: .5s;
+}
+
+.mobile-menu-icon p {
+    position: absolute;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background: black;
+    backface-visibility: hidden;
+    transition: .5s;
+}
+
+.load-web-4 {
+    animation: four_animation 1s ease-in-out forwards;
+    transform: translateX(-100%);
+    opacity: 1;
+    visibility: visible;
+    animation-delay: 2.7s;
+
+}
+
+aside {
+    position: fixed;
+    background: #222;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: 100%;
+    overflow: none;
+    z-index: 10;
+    text-align: center;
+    padding: 0;
+}
+
+aside img {
+    filter: grayscale(100%) contrast(50%) brightness(100%);
+    margin-bottom: 1.5em;
+}
+
+img {
+    width: 100%;
+}
+
+.menu a.active-menu {
+    color: greenyellow;
+}
+aside a {
+    position: relative;
+}
+aside a {
+    display: block;
+    padding: 15px 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+}
+
+
+100% {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+main {
+    max-width: 980px;
+    background: #000;
+    text-align: right;
+    margin-left: 10%;
+}
+
+header {
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.load-web-3 {
+    animation: three_animation 1.5s ease-in-out forwards;
+    transform: translate(100%, -10%);
+    opacity: 1;
+    visibility: visible;
+    animation-delay: 1.7s;
+}
+
+.load-web-1 {
+        animation: one_animation 1s ease-in-out forwards;
+        transform: translateX(100%);
+        opacity: 1;
+        visibility: visible;
+        animation-delay: 1.7s;
+}
+header h1 {
+        font-weight: bold;
+        font-size: 4em;
+        letter-spacing: 4px;
+}
+header h5 {
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: #b2b2b2;
+}
+
+@media (max-width: 856px)
+header div {
+    left: -30%;
+    top: 45%;
+}
+header div {
+    position: absolute;
+    transform: rotate(-90deg) translate(0, -50%);
+    left: -25%;
+    top: 40%;
+}
+
+main {
+    max-width: 980px;
+    background: #000;
+    text-align: right;
+    margin-left: 10%;
+}
